@@ -40,7 +40,6 @@ void decompression(char str[])
         if(i%2==1)
         {
             length=length+(str[i]-'0');
-            
         }
         i++;
     }
@@ -71,5 +70,3 @@ int main()
     decompression(str);
     puts(str);
 }
-
-
